@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   delete "/tickets/:id", to: "tickets#destroy"
-  resources :products, only: [:show, :index]
-  # resources :store, only: [:show] do
+
   resources :tickets, only: [:show, :index, :create, :new] do
     get :assign, to: "tickets#assign", on: :member
     get :assign_later, to: "tickets#assign_later", on: :member
@@ -10,9 +9,5 @@ Rails.application.routes.draw do
     resources :reviews, only: [:new, :create, :show ]
   end
   get "/tickets/new/ticket_response", to: "tickets#ticket_response", as: 'ticket_response'
-  get "/scan/barcode", to: "products#barcode", as: 'barcode'
-  post "/scan/barcode", to: "products#barcode"
-  get "/scraping", to: "products#scraping"
-  # end
   root to: 'pages#home'
 end
