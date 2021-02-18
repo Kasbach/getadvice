@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(version: 2021_02_18_095843) do
     t.string "address"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "latitude"
+    t.float "longitude"
   end
 
   create_table "tickets", force: :cascade do |t|
