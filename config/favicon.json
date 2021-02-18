@@ -1,7 +1,7 @@
 
 
 {
-  "master_picture": "app/assets/images/a_de_alltricks.jpg", 
+  "master_picture": "app/assets/images/home_desktop.jpg",
   "favicon_design": {
       "ios": {
           "picture_aspect": "no_change",
@@ -11,7 +11,7 @@
               "precomposed_icons": false,
               "declare_only_default_icon": true
           },
-          "app_name": "Alltricks store, by Anphibia"
+          "app_name": "GetAdvice"
       },
       "desktop_browser": {
           "design": "background",
@@ -32,7 +32,7 @@
                   "rectangle": false
               }
           },
-          "app_name": "Alltricks store, by Anphibia"
+          "app_name": "GetAdvice"
       },
       "android_chrome": {
           "picture_aspect": "background_and_margin",
@@ -40,7 +40,7 @@
           "background_color": "#008bd2",
           "theme_color": "#008bd2",
           "manifest": {
-              "name": "Alltricks store",
+              "name": "GetAdvice",
               "display": "standalone",
               "orientation": "not_set",
               "on_conflict": "override",
