@@ -1,5 +1,5 @@
 .ticket-response {
-  text-align:center;
+  text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,8 +14,6 @@
   position:absolute;
   z-index:2;
 }
-
-/// section = rayon en anglais ;-)
 
 .section {
   border-radius: 30px;
@@ -42,14 +40,6 @@
   padding-top: 5%;
 }
 
-.form.client-firstname {
-  width: 70%;
-}
-
-#form-line {
-  background: white;
-}
-
 .timer {
   color: #008bd2;
   font-weight: bold;
@@ -73,14 +63,85 @@
   min-width: 120px;
 }
 
-#temporary-survey {
-  position: absolute;
-  bottom: 10px;
-  right: 4px;
+#logout {
+  text-align: center;
+  padding-top: 30px;
 }
 
-@media (max-width: 767px) {
-  #action {
-    margin-top: 10px;
+@keyframes bb {
+  from {background-color: #008bd2;}
+  to {background-color: white;}
+}
+
+.table {
+  font-size: 12px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.card-ticket {
+  margin-top: 30px;
+}
+
+.reviews {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 35px;
+}
+
+.ticket {
+  &.new {
+    animation: bb 5s;
+  }
+
+  h1 {
+    font-size: 45px !important;
+  }
+}
+
+.content-t h1 {
+  font-size: 150%;
+}
+
+.content-t h2 {
+  font-size: 150%;
+}
+
+.content-t h3 {
+  font-size: 90%;
+}
+
+.fa-star {
+  color:  #FFD700;
+  cursor: pointer;
+  font-size: 19px;
+}
+.review i {
+  font-size: 32px;
+}
+
+.p-t {
+  padding-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .d-flex-lg {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-ticket {
+    width: 48%
+  }
+
+  .reviews {
+    width: 100%;
+  }
+
+  .table {
+    font-size: 100% !important;
+    text-align: center;
   }
 }

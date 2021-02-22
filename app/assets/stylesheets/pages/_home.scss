@@ -1,5 +1,4 @@
 @media (max-width: 767px) {
-
   .home-lg {
     display: none;
   }
@@ -30,33 +29,6 @@
     font-family: 'Mulish', sans-serif;
   }
 
-
-  .bienvenue{
-    font-size: 240%;
-    padding-top:10%;
-    color: white;
-  }
-
-  .dansvotremagasin{
-    color: white;
-    font-size: 140%;
-  }
-
-  .nomdumag{
-    background: white;
-    color: #008bd2;
-    font-size: 280%;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-top: 2%;
-    width: fit-content;
-    padding-top: 0.5%;
-  }
-
-  .content-homepage input {
-    border-radius: 30px;
-  }
-
   .content-homepage {
     padding-top: 22vh;
     text-align: center;
@@ -69,19 +41,6 @@
     letter-spacing: 1px;
     background-color: rgba(0, 139, 210, 0.9);
  }
-
- .content-homepage p {
-  padding-top: 3vh;
-  }
-
-  #survey-text {
-    color: white;
-    margin-top: 10%;
-  }
-
-  .white-survey #survey-text {
-    color: #008bd2 !important;
-  }
 }
 
 @media (min-width: 768px) {
@@ -94,23 +53,5 @@
     padding-top: 400px;
     text-align: center;
     font-family: 'Mulish', sans-serif;
-  }
-
-  .home-lg h2 {
-    font-size: 20px;
-    padding-bottom: 30px;
-  }
-
-  .home-lg img {
-    border-radius: 6px !important;
-  }
-
-  .content-homepage-lg h2 {
-    padding-top: 50px;
-  }
-
-  .barcodes {
-    display: flex;
-    justify-content: space-between;
   }
 }
