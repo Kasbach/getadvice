@@ -114,10 +114,10 @@
   |
   ------------------------------------------------------------*/
 
-  .ui-section-header {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
+  // .ui-section-header {
+  //   padding-bottom: 2rem;
+  //   padding-top: 2rem;
+  // }
 
   /*------------------------------------------------------------
   |
@@ -269,6 +269,11 @@
 
   .ui-text-intro { font-size: var(--ui-typography-h4); }
 
+  .ui-section-hero .ui-text-intro {
+    text-align: left;
+    font-size: 32px;
+  }
+
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
@@ -305,10 +310,10 @@
   |
   ------------------------------------------------------------*/
 
-  .ui-section-header {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-  }
+  // .ui-section-header {
+  //   padding-bottom: 3rem;
+  //   padding-top: 3rem;
+  // }
 
   /*------------------------------------------------------------
   |
@@ -316,10 +321,10 @@
   |
   ------------------------------------------------------------*/
 
-  .ui-section-hero {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
-  }
+  // .ui-section-hero {
+  //   padding-bottom: 7.5rem;
+  //   padding-top: 7.5rem;
+  // }
 
   /*------------------------------------------------------------
   |
