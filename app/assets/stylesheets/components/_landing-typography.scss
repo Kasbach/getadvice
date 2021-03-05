@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+3.0 TYPOGRAPHY
+--------------------------------------------------------------*/
+
+a {
+  color: var(--ui-color-brand);
+  text-decoration: none;
+}
+
+h1,
+h2,
+p,
+ul { margin-top: 0; }
+
+h1,
+h2 {
+  color: var(--ui-color-typography-heading);
+  margin-bottom: var(--ui-typography-margin-heading);
+}
+
+h1 {
+  font-size: var(--ui-typography-h1);
+  line-height: var(--ui-typography-h1-leading);
+}
+
+h2 {
+  font-size: var(--ui-typography-h2);
+  line-height: var(--ui-typography-h2-leading);
+}
+
+p,
+ul { margin-bottom: var(--ui-typography-margin-body); }
+
+p:last-child,
+ul:last-child { margin-bottom: 0; }
+
+ul { padding-left: 0; }
+
+strong { font-weight: 700; }
+
+small { font-size: var(--ui-typography-s); }
+
+.ui-text-note {
+  color: var(--ui-color-typography-note);
+  line-height: 1;
+}
