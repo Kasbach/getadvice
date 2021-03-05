@@ -9,7 +9,6 @@
 --------------------------------------------------------------*/
 
 .ui-section-header {
-  padding-bottom: 1.25rem;
   padding-top: 1.25rem;
   position: sticky;
   top: 0;
@@ -33,6 +32,11 @@
   margin-right: 0px;
 }
 
+.scrolled-navbar {
+  box-shadow: 2px 2px 12px rgb(236, 236, 236);
+  transition: 1.5s;
+}
+
 /*--------------------------------------------------------------
 |
 | 7.2 HERO
@@ -49,11 +53,23 @@
 
 .value-proposition h1 {
   font-size: 35px;
-  padding-top: 60px;
+  padding-top: 200px;
 }
 
 .value-proposition p {
   font-size: 23px;
+}
+
+.value-picture {
+  padding-top: 55px;
+}
+
+.btn-proposition {
+  background-color: #D04FE0;
+  font-size: 16px;
+  padding: 18px 32px;
+  color: white;
+  border-radius: 30px;
 }
 
 /*--------------------------------------------------------------
