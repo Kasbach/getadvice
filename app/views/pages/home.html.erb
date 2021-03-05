@@ -16,9 +16,16 @@
       <div class="ui-layout-container">
         <div class="ui-section-header__layout ui-layout-flex">
           <!-- LOGO -->
-          <h2>GetAdvice</h2>
+          <div class="logo">
+            <h2>GetAdvice</h2>
+          </div>
           <!-- MENU -->
-          <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-small ui-component-button-primary">Contactez-nous</a>
+          <div class="menu">
+            <a href="#" role="link" aria-label="#">Home</a>
+            <a href="#features" role="link" aria-label="#">Features</a>
+            <a href="#testimonials" role="link" aria-label="#">Testimonials</a>
+            <a href="#contact" role="link" aria-label="#" class="ui-component-button ui-component-button-small ui-component-button-primary">Contactez-nous</a>
+          </div>
         </div>
       </div>
     </header>
@@ -26,15 +33,18 @@
       <section class="ui-section-hero">
         <div class="ui-layout-container">
           <!-- COPYWRITING -->
-          <div class="ui-layout-column-6 ui-layout-column-center">
-            <h1>Proposition de valeur</h1>
-            <p class="ui-text-intro">Dashboard vendeur version desktop rempli avec plusieurs tickets dans tous les status (en cours, en attente).</p>
+          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+            <div class="value-proposition ui-text-intro">
+              <h1>Proposition de valeur</h1>
+              <p>Dashboard vendeur version desktop rempli avec plusieurs tickets dans tous les status (en cours, en attente).</p>
+            </div>
+            <div class="value-picture">
+              <img src="https://preview.colorlib.com/theme/appco/assets/img/hero/hero_right.png" loading="lazy" alt="#" class="ui-image-half-left">
+            </div>
           </div>
-          <!-- IMAGE -->
-          <%# <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" loading="lazy" alt="#" class="ui-section-hero--image"> %>
         </div>
       </section>
-      <section class="ui-section-feature">
+      <section id="features" class="ui-section-feature">
         <div class="ui-layout-container">
           <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
             <!-- IMAGE -->
@@ -132,7 +142,7 @@
           </div>
         </div>
       </section>
-      <section class="ui-section-testimonial">
+      <section class="ui-section-testimonial" id="testimonials">
         <div class="ui-layout-container">
           <div class="ui-layout-column-6 ui-layout-column-center">
             <h2>Ils ont aimé notre produit</h2>
@@ -157,7 +167,7 @@
           </div>
         </div>
       </section>
-      <section class="ui-section-close">
+      <section id="contact" class="ui-section-close">
         <div class="ui-layout-container">
           <div class="ui-layout-column-6 ui-layout-column-center">
             <h2>Intéressé ?</h2>

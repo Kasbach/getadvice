@@ -11,9 +11,27 @@
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
+
+.menu a {
+  display: inline;
+  margin-right: 60px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid grey;
+}
+
+.menu .ui-component-button {
+  margin-right: 0px;
+}
 
 /*--------------------------------------------------------------
 |
@@ -22,12 +40,21 @@
 --------------------------------------------------------------*/
 
 .ui-section-hero {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  // padding-bottom: 5rem;
+  // padding-top: 5rem;
   text-align: center;
 }
 
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+
+.value-proposition h1 {
+  font-size: 35px;
+  padding-top: 60px;
+}
+
+.value-proposition p {
+  font-size: 23px;
+}
 
 /*--------------------------------------------------------------
 |
