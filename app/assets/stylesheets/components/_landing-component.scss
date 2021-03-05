@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+6.0 COMPONENT
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+|
+| 6.1 CTA
+|
+--------------------------------------------------------------*/
+
+.ui-component-cta {
+  flex-direction: column;
+  row-gap: var(--ui-gap-cta);
+}
+
+/*--------------------------------------------------------------
+|
+| 6.2 BUTTON
+|
+--------------------------------------------------------------*/
+
+.ui-component-button {
+  border: .0625rem solid var(--ui-color-brand);
+  border-radius: var(--ui-radius-button);
+  display: block;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.ui-component-button-primary {
+  background-color: var(--ui-color-brand);
+  color: var(--ui-color-typography-button);
+}
+
+.ui-component-button-normal {
+  padding: .75rem 1rem .875rem;
+  width: fit-content;
+}
+
+.ui-component-button-small {
+  font-size: var(--ui-typography-s);
+  padding: .5rem .75rem .5625rem;
+}
+
+/*--------------------------------------------------------------
+|
+| 6.3 LIST
+|
+--------------------------------------------------------------*/
+
+.ui-component-list {
+  grid-template-columns: 1fr;
+  row-gap: .75rem;
+}
+
+.ui-component-list--item {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 1.125rem;
+  list-style: none;
+  padding-left: 1.875rem;
+}
+
+.ui-component-list--item-check {
+  background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/check.svg);
+}

@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+7.0 SECTION
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+|
+| 7.1 HEADER
+|
+--------------------------------------------------------------*/
+
+.ui-section-header {
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.ui-section-header__layout { justify-content: space-between; }
+
+/*--------------------------------------------------------------
+|
+| 7.2 HERO
+|
+--------------------------------------------------------------*/
+
+.ui-section-hero {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+
+/*--------------------------------------------------------------
+|
+| 7.3 CUSTOMER
+|
+--------------------------------------------------------------*/
+
+.ui-section-customer__layout {
+  flex-direction: column;
+  row-gap: var(--ui-gap-customer);
+}
+
+.ui-section-customer--logo {
+  height: 1.5rem;
+  width: auto;
+}
+
+.ui-section-customer--logo-str { height: 1.75rem; }
+
+.ui-section-customer--logo-bhn { height: 1.375rem; }
+
+/*--------------------------------------------------------------
+|
+| 7.4 FEATURE
+|
+--------------------------------------------------------------*/
+
+.ui-section-feature {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.ui-section-feature__layout { row-gap: var(--ui-gap-feature); }
+
+.ui-section-feature__layout:nth-of-type(odd) div {
+  grid-row-start: 1;
+}
+
+.ui-section-feature__layout:nth-of-type(even) {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+/*--------------------------------------------------------------
+|
+| 7.5 TESTIMONIAL
+|
+--------------------------------------------------------------*/
+
+.ui-section-testimonial {
+  background-color: var(--ui-color-background-tertiary);
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ui-section-testimonial__layout {
+  margin-top: var(--ui-gap-testimonial);
+  row-gap: var(--ui-gap-testimonial);
+}
+
+.ui-section-testimonial--avatar {
+  border-radius: var(--ui-radius-avatar);
+  height: 5rem;
+  width: 5rem;
+}
+
+.ui-section-testimonial--quote {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.ui-section-testimonial--author { line-height: 1.25; }
+
+/*--------------------------------------------------------------
+|
+| 7.6 CLOSE
+|
+--------------------------------------------------------------*/
+
+.ui-section-close {
+  background-color: var(--ui-color-background-secondary);
+  padding-top: 5rem;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+|
+| 7.7 FOOTER
+|
+--------------------------------------------------------------*/
+
+.ui-section-footer {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.ui-section-footer__layout {
+  flex-direction: column-reverse;
+  row-gap: var(--ui-layout-gutter);
+}
+
+.ui-section-footer--copyright { margin-bottom: 0; }
+
+.ui-section-footer--nav {
+  column-gap: var(--ui-layout-gutter);
+}

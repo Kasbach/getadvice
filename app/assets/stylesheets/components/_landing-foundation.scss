@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+2.0 FOUNDATION
+--------------------------------------------------------------*/
+
+html { box-sizing: border-box; }
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+body {
+  background-color: var(--ui-color-background-primary);
+  color: var(--ui-color-typography-body);
+  font-family: var(--ui-typography-typeface);
+  font-feature-settings: "liga", "kern";
+  font-size: var(--ui-typography-p);
+  font-weight: 400;
+  line-height: var(--ui-typography-p-leading);
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
