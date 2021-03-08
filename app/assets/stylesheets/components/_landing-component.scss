@@ -9,7 +9,6 @@
 --------------------------------------------------------------*/
 
 .ui-component-cta {
-  flex-direction: column;
   row-gap: var(--ui-gap-cta);
 }
 
@@ -26,6 +25,16 @@
   font-weight: 700;
   line-height: 1;
   text-align: center;
+  color: black !important;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+.ui-component-button:hover {
+  background-position: left bottom;
+  color: white !important;
 }
 
 .ui-component-button-primary {
