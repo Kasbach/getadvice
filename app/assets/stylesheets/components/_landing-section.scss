@@ -12,7 +12,6 @@
   padding-top: 1.25rem;
   position: sticky;
   top: 0;
-  background-color: white;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
@@ -25,7 +24,7 @@
 }
 
 .menu a:hover {
-  border-bottom: 3px solid grey;
+  border-bottom: solid 2px rgb(70, 70, 70);
 }
 
 .menu .ui-component-button {
@@ -35,6 +34,7 @@
 .scrolled-navbar {
   box-shadow: 2px 2px 12px rgb(236, 236, 236);
   transition: 1.5s;
+  background-color: rgba(255, 255, 255, 0.87);
 }
 
 /*--------------------------------------------------------------
@@ -65,32 +65,23 @@
 }
 
 .btn-proposition {
-  background-color: #D04FE0;
   font-size: 16px;
   padding: 18px 32px;
   color: white;
   border-radius: 30px;
+
+  background: linear-gradient(to right, #ff9d9d 50%, #D04FE0 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
-/*--------------------------------------------------------------
-|
-| 7.3 CUSTOMER
-|
---------------------------------------------------------------*/
-
-.ui-section-customer__layout {
-  flex-direction: column;
-  row-gap: var(--ui-gap-customer);
+.btn-proposition:hover {
+  background-position: left bottom;
+  color: white !important;
 }
 
-.ui-section-customer--logo {
-  height: 1.5rem;
-  width: auto;
-}
 
-.ui-section-customer--logo-str { height: 1.75rem; }
-
-.ui-section-customer--logo-bhn { height: 1.375rem; }
 
 /*--------------------------------------------------------------
 |
