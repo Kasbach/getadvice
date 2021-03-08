@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 // External libraries
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
@@ -37,6 +37,11 @@ h1, h2, h3, h4 {
   margin-bottom: none;
 }
 
+h1 {
+   font-family: 'Nunito', sans-serif;
+   font-size: 200% !important;
+}
+
 @media (max-width: 767px) {
   body.pages_home {
     background-image: url("https://i.pinimg.com/originals/d6/42/65/d64265e5539b75f47df0bc62276731e6.jpg");
@@ -49,6 +54,3 @@ body.tickets_index {
   background: #d9d9d9 !important;
 }
 
-body.tickets_new, body.tickets_show, body.tickets_index {
-  box-sizing: border-box;
-}
