@@ -7,13 +7,9 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-p,
-ul { margin-top: 0; }
+h1, h2, p, ul { margin-top: 0; }
 
-h1,
-h2 {
+h1, h2 {
   color: var(--ui-color-typography-heading);
   margin-bottom: var(--ui-typography-margin-heading);
 }
