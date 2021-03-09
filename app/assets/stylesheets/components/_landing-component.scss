@@ -9,7 +9,7 @@
 --------------------------------------------------------------*/
 
 .ui-component-cta {
-  row-gap: var(--ui-gap-cta);
+  row-gap: .75rem;
 }
 
 /*--------------------------------------------------------------
@@ -19,8 +19,8 @@
 --------------------------------------------------------------*/
 
 .ui-component-button {
-  border: .0625rem solid var(--ui-color-brand);
-  border-radius: var(--ui-radius-button);
+  border: .0625rem solid #353535;
+  border-radius: 5rem;
   display: block;
   font-weight: 700;
   line-height: 1;
@@ -38,8 +38,8 @@
 }
 
 .ui-component-button-primary {
-  background-color: var(--ui-color-brand);
-  color: var(--ui-color-typography-button);
+  background-color: #353535;
+  color: #fff;
 }
 
 .ui-component-button-normal {
@@ -48,7 +48,7 @@
 }
 
 .ui-component-button-small {
-  font-size: var(--ui-typography-s);
+  font-size: .8125rem;
   padding: .5rem .75rem .5625rem;
 }
 

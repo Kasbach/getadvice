@@ -3,12 +3,11 @@
 --------------------------------------------------------------*/
 
 .ui-layout-container {
-  padding-left: var(--ui-layout-container);
-  padding-right: var(--ui-layout-container);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
-.ui-layout-flex,
-.ui-layout-grid {
+.ui-layout-flex, .ui-layout-grid {
   justify-content: center;
 }
 
