@@ -8,58 +8,26 @@
 |
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 48rem) {
-
-  /*------------------------------------------------------------
-  VARIABLE
-  ------------------------------------------------------------*/
-
-  :root {
-
-    /*----------------------------------------------------------
-    |
-    | TYPOGRAPHY
-    |
-    ----------------------------------------------------------*/
-
-    /* FONT SIZE */
-
-    --ui-typography-h1: 2.1875rem;
-    --ui-typography-h2: 1.75rem;
-    --ui-typography-p : 1.125rem;
-    --ui-typography-s : .875rem;
-
-    /* MARGIN */
-
-    --ui-typography-margin-body: 1.25rem;
-
-    /*----------------------------------------------------------
-    |
-    | LAYOUT
-    |
-    ----------------------------------------------------------*/
-
-    --ui-layout-container: 1.75rem;
-    --ui-layout-gutter   : 1.5rem;
-
-    /* GAP */
-
-    --ui-gap-hero       : 3rem;
-    --ui-gap-feature    : 3rem;
-    --ui-gap-testimonial: 3rem;
-
-  }
+@media screen and (min-width: 768px) {
 
   /*------------------------------------------------------------
   IMAGE
   ------------------------------------------------------------*/
 
   .ui-image-half-left {
-    padding-right: var(--ui-layout-gutter);
+    padding-right: 1.5rem;
   }
 
   .ui-image-half-right {
-    padding-left: var(--ui-layout-gutter);
+    padding-left: 1.5rem;
+  }
+
+  .image1 {
+    width:50%;
+    }
+
+  .image2 {
+    width:90%;
   }
 
   /*------------------------------------------------------------
@@ -74,19 +42,19 @@
 
   .ui-layout-grid-2,
   .ui-layout-grid-3 {
-    column-gap: var(--ui-layout-gutter);
+    column-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
 
   .ui-layout-column-4 {
-    width: calc((var(--ui-layout-grid) * 4) +
-           (var(--ui-layout-gutter) * 3));
+    width: calc((3.625rem * 4) +
+           (1.5rem * 3));
   }
 
   .ui-layout-column-6 {
-    width: calc((var(--ui-layout-grid) * 6) +
-           (var(--ui-layout-gutter) * 5));
+    width: calc((3.625rem * 6) +
+           (1.5rem * 5));
   }
 
   /*------------------------------------------------------------
@@ -118,29 +86,6 @@
     grid-row-start: initial;
   }
 
-  /*------------------------------------------------------------
-  |
-  | FOOTER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-footer {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-  .ui-section-footer__layout {
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-  }
-
-  .ui-section-footer--menu {
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-  }
-
 }
 
 /*--------------------------------------------------------------
@@ -149,33 +94,8 @@
 |
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 1024px) {
 
-  /*------------------------------------------------------------
-  VARIABLE
-  ------------------------------------------------------------*/
-
-  :root {
-
-    /*----------------------------------------------------------
-    |
-    | LAYOUT
-    |
-    ----------------------------------------------------------*/
-
-    --ui-layout-container: 0;
-
-  }
-
-  /*------------------------------------------------------------
-  TYPOGRAPHY
-  ------------------------------------------------------------*/
-
-  a { transition: all 250ms ease; }
-
-  a:not(.ui-component-button):hover {
-    color: var(--ui-color-typography-body);
-  }
 
   /*------------------------------------------------------------
   LAYOUT
@@ -193,57 +113,13 @@
 |
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 75rem) {
-
-  /*------------------------------------------------------------
-  VARIABLE
-  ------------------------------------------------------------*/
-
-  :root {
-
-    /*----------------------------------------------------------
-    |
-    | TYPOGRAPHY
-    |
-    ----------------------------------------------------------*/
-
-    /* FONT SIZE */
-
-    --ui-typography-h1: 2.75rem;
-    --ui-typography-h2: 2.1875rem;
-    --ui-typography-h4: 1.4375rem;
-
-    /* MARGIN */
-
-    --ui-typography-margin-heading: 1rem;
-    --ui-typography-margin-body   : 1.75rem;
-
-    /*----------------------------------------------------------
-    |
-    | LAYOUT
-    |
-    ----------------------------------------------------------*/
-
-    --ui-layout-grid  : 4rem;
-    --ui-layout-gutter: 2rem;
-
-    /* GAP */
-
-    --ui-gap-hero       : 4rem;
-    --ui-gap-customer   : 4rem;
-    --ui-gap-feature    : 4rem;
-    --ui-gap-testimonial: 4rem;
-
-  }
+@media screen and (min-width: 1200px) {
 
   /*------------------------------------------------------------
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro { font-size: var(--ui-typography-h4); }
-
   .ui-section-hero .ui-text-intro {
-    text-align: left;
     font-size: 32px;
   }
 
@@ -296,7 +172,7 @@
   /* LIST */
 
   .ui-component-list-feature {
-    column-gap: var(--ui-layout-gutter);
+    column-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -318,16 +194,5 @@
   ------------------------------------------------------------*/
 
   .ui-section-close { padding-top: 7.5rem; }
-
-  // /*------------------------------------------------------------
-  // |
-  // | FOOTER
-  // |
-  // ------------------------------------------------------------*/
-
-  // .ui-section-footer {
-  //   padding-bottom: 3rem;
-  //   padding-top: 3rem;
-  // }
 
 }

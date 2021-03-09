@@ -25,6 +25,7 @@
 
 .menu a:hover {
   border-bottom: solid 2px rgb(70, 70, 70);
+  color: #1a1a1a;
 }
 
 .menu .ui-component-button {
@@ -44,19 +45,17 @@
 --------------------------------------------------------------*/
 
 .ui-section-hero {
-  // padding-bottom: 5rem;
-  // padding-top: 5rem;
-  text-align: center;
+  text-align: left;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+.ui-section-hero--image { margin-top: 2rem; }
 
-.value-proposition h1 {
-  font-size: 35px;
+.ui-text-intro h1 {
   padding-top: 200px;
+  font-size: 32px;
 }
 
-.value-proposition p {
+.ui-text-intro p {
   font-size: 23px;
 }
 
@@ -81,8 +80,6 @@
   color: white !important;
 }
 
-
-
 /*--------------------------------------------------------------
 |
 | 7.4 FEATURE
@@ -94,7 +91,7 @@
   padding-top: 5rem;
 }
 
-.ui-section-feature__layout { row-gap: var(--ui-gap-feature); }
+.ui-section-feature__layout { row-gap: 2rem; }
 
 .ui-section-feature__layout:nth-of-type(odd) div {
   grid-row-start: 1;
@@ -112,19 +109,19 @@
 --------------------------------------------------------------*/
 
 .ui-section-testimonial {
-  background-color: var(--ui-color-background-tertiary);
+  background-color: #fafafa;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
 }
 
 .ui-section-testimonial__layout {
-  margin-top: var(--ui-gap-testimonial);
-  row-gap: var(--ui-gap-testimonial);
+  margin-top: 2rem;
+  row-gap: 2rem;
 }
 
 .ui-section-testimonial--avatar {
-  border-radius: var(--ui-radius-avatar);
+  border-radius: 5rem;
   height: 5rem;
   width: 5rem;
 }
@@ -143,29 +140,7 @@
 --------------------------------------------------------------*/
 
 .ui-section-close {
-  background-color: var(--ui-color-background-secondary);
+  background-color: #f5f5f5;
   padding-top: 5rem;
   text-align: center;
 }
-
-// /*--------------------------------------------------------------
-// |
-// | 7.7 FOOTER
-// |
-// --------------------------------------------------------------*/
-
-// .ui-section-footer {
-//   padding-bottom: 3rem;
-//   padding-top: 3rem;
-// }
-
-// .ui-section-footer__layout {
-//   flex-direction: column-reverse;
-//   row-gap: var(--ui-layout-gutter);
-// }
-
-// .ui-section-footer--copyright { margin-bottom: 0; }
-
-// .ui-section-footer--nav {
-//   column-gap: var(--ui-layout-gutter);
-// }
